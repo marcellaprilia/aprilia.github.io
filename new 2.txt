@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aplikasi Monitoring Ketahanan Bahan Bakar</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aplikasi Monitoring Ketahanan Bahan Bakar</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Unit</th>
+                <th>Pembangkit</th>
+                <th>Jenis Bahan Bakar</th>
+                <th>Stok Awal (MT/L/MMBTU)</th>
+                <th>Stok Akhir (MT/L/MMBTU)</th>
+                <th>Asumsi Pemakaian (L)</th>
+                <th>Ketahanan Operasi (hari)</th>
+                <th>Status</th>
+                <th>Penerimaan (L)</th>
+                <th>Realisasi Pemakaian (L)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data rows will be dynamically added here -->
+        </tbody>
+    </table>
+</body>
+</html>

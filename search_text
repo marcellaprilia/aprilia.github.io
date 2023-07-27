@@ -1,0 +1,15 @@
+def edit_html_file(file_path, search_text, replace_text):
+    with open(file_path, 'r') as file:
+        content = file.read()
+
+    updated_content = content.replace(search_text, replace_text)
+
+    with open(file_path, 'w') as file:
+        file.write(updated_content)
+
+# Contoh penggunaan:
+file_path = 'index.html'  # Ganti dengan path file HTML yang ingin Anda edit
+search_text = '<h1>Hello, World!</h1>'  # Ganti dengan teks yang ingin Anda cari
+replace_text = '<h1>Welcome to My Website!</h1>'  # Ganti dengan teks pengganti
+
+edit_html_file(file_path, search_text, replace_text)
